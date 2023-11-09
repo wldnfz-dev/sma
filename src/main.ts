@@ -9,9 +9,7 @@ async function bootstrap() {
     forbidUnknownValues: true,
     transform: true
   }))
-  app.enableCors({
-    origin: "*"
-  })
+  app.enableCors()
   await app.listen(3001);
 }
 bootstrap();
