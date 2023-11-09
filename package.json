@@ -26,7 +26,6 @@
   },
   "dependencies": {
     "@nestjs/cli": "^10.0.0",
-    "@faker-js/faker": "^8.2.0",
     "@nestjs-modules/mailer": "^1.9.1",
     "@nestjs/common": "^10.0.0",
     "@nestjs/config": "^3.1.1",
@@ -44,8 +43,6 @@
     "dotenv": "^10.0.0",
     "fs": "^0.0.1-security",
     "jsonwebtoken": "^9.0.2",
-    "mime": "^3.0.0",
-    "mime-types": "^2.1.35",
     "mysql2": "^3.6.3",
     "nanoid": "^3.3.4",
     "nodemailer": "^6.9.7",
