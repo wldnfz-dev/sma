@@ -8,7 +8,7 @@
   "scripts": {
     "build": "nest build && npm config set legacy-peer-deps true",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "start": "nest start",
+    "start": "node dist/main",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
@@ -25,6 +25,7 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@nestjs/cli": "^10.0.0",
     "@faker-js/faker": "^8.2.0",
     "@nestjs-modules/mailer": "^1.9.1",
     "@nestjs/common": "^10.0.0",
@@ -57,7 +58,6 @@
     "zxcvbn": "^4.4.2"
   },
   "devDependencies": {
-    "@nestjs/cli": "^10.0.0",
     "@nestjs/schematics": "^10.0.0",
     "@nestjs/testing": "^10.0.0",
     "@types/bcrypt": "^5.0.2",
