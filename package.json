@@ -50,8 +50,7 @@
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.1",
     "typeorm": "^0.2.45",
-    "typeorm-seeding": "^1.6.1",
-    "zxcvbn": "^4.4.2"
+    "typeorm-seeding": "^1.6.1"
   },
   "devDependencies": {
     "@nestjs/schematics": "^10.0.0",
