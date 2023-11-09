@@ -8,6 +8,9 @@ async function bootstrap() {
     transform: true,
     transformOptions: { enableImplicitConversion: true },
   }));
+  app.enableCors({
+    origin: "*"
+  })
   await app.listen(3000);
 }
 bootstrap();
